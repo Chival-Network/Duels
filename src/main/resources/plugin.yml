@@ -1,0 +1,8 @@
+name: Duels
+version: '${project.version}'
+main: au.chival.duels.Main
+api-version: 1.19
+prefix: [ Chival-Duels ]
+load: STARTUP
+authors: [ WH1TE_DRAG0N ]
+  description
