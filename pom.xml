@@ -6,17 +6,15 @@
 
     <groupId>au.chival</groupId>
     <artifactId>duels</artifactId>
-    <version>1.0</version>
+    <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
 
     <name>Duels</name>
 
-    <description>Chival duels plugin</description>
     <properties>
-        <java.version>1.18</java.version>
+        <java.version>1.8</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
-    <url>chival.au</url>
 
     <build>
         <plugins>
@@ -62,26 +60,13 @@
         </repository>
 
         <repository>
-            <id>krypton</id>
-            <url>https://repo.kryptonmc.org/releases</url>
-        </repository>
-
-        <repository>
             <id>sonatype</id>
             <url>https://oss.sonatype.org/content/groups/public/</url>
         </repository>
 
-
     </repositories>
 
     <dependencies>
-
-        <dependency>
-            <groupId>org.spigotmc</groupId>
-            <artifactId>spigot</artifactId>
-            <version>1.8.8-R0.1-SNAPSHOT</version>
-            <scope>provided</scope>
-        </dependency>
 
         <dependency>
             <groupId>org.spigotmc</groupId>
@@ -91,16 +76,9 @@
         </dependency>
 
         <dependency>
-            <groupId>net.luckperms</groupId>
-            <artifactId>api</artifactId>
-            <version>5.4</version>
-            <scope>provided</scope>
-        </dependency>
-
-        <dependency>
-            <groupId>me.neznamy</groupId>
-            <artifactId>tab-api</artifactId>
-            <version>3.1.4</version>
+            <groupId>org.spigotmc</groupId>
+            <artifactId>spigot</artifactId>
+            <version>1.8.8-R0.1-SNAPSHOT</version>
             <scope>provided</scope>
         </dependency>
 
